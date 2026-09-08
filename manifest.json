@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Flint Flower Life METRC Tag Export",
+  "version": "1.0.0",
+  "description": "Downloads tag-level Sales Delivery detail from the authorized Michigan METRC browser session.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://mi.metrc.com/*"],
+  "action": {
+    "default_title": "Download METRC delivery tag detail",
+    "default_popup": "popup.html"
+  }
+}
