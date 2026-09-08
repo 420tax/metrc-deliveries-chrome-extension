@@ -1,0 +1,102 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #13231d;
+  background: #f4f7f5;
+}
+
+body {
+  margin: 0;
+  width: 360px;
+}
+
+main {
+  padding: 20px;
+}
+
+.eyebrow {
+  color: #2f6b54;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+h1 {
+  margin: 5px 0 9px;
+  font-size: 23px;
+  line-height: 1.15;
+}
+
+.intro,
+.footnote {
+  color: #4e5e57;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.file-label {
+  display: block;
+  margin: 18px 0 7px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+input[type="file"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #bcc9c3;
+  border-radius: 7px;
+  background: white;
+  font-size: 12px;
+}
+
+.selection,
+.status {
+  min-height: 18px;
+  margin-top: 9px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.selection {
+  color: #52635b;
+}
+
+.status.error {
+  color: #9b1c1c;
+}
+
+.status.success {
+  color: #176642;
+  font-weight: 700;
+}
+
+button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 11px 14px;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+  background: #176642;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #0f5133;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: #9eaaa4;
+}
+
+.footnote {
+  margin: 16px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid #d9e1dd;
+  font-size: 11px;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>METRC Tag Export</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">FLINT FLOWER LIFE</div>
+      <h1>METRC Tag Export</h1>
+      <p class="intro">Open Sales Deliveries in Michigan METRC, then select the summarized delivery CSV.</p>
+
+      <label class="file-label" for="sourceFile">Sales Deliveries CSV</label>
+      <input id="sourceFile" type="file" accept=".csv,text/csv">
+
+      <div id="selection" class="selection" aria-live="polite">No file selected</div>
+      <button id="start" type="button" disabled>Extract all tag detail</button>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+
+      <p class="footnote">The extraction runs in the current METRC tab. Leave that tab open until the green completion panel appears.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
